@@ -77,4 +77,22 @@ let dogs = {
 let dogType = "pug";
 console.log(dogs[dogType]);
 
+/* 4) An attempt to access the last entry in the array is outputting undefined
+
+The first entry in an array start at zero 0. And number three don't exist in the array so you cant access it
+
+let meanPeople = ['Layna', 'Layna again', 'Layna one more time']; 
+*/
+let meanPeople = ['Layna', 'Layna again', 'Layna one more time'];
+console.log(meanPeople[2]);
+
+/* 5) When running this code we get a fatal error on run time
+
+Using a quote inside a string makes javascript think the string ends there. Use an escape character, double quotes or a string
+literal.
+
+console.log('Layna's' favorite hobby is being mean to Andrew');
+*/
+
+console.log('Layna\'s favorite hobby is being mean to Andrew');
 
